@@ -1,0 +1,25 @@
+Set creation --> O(1) --> s = set([i]) | s = frozenset([i])
+Cardinality --> O(1) --> len(s)
+Membership --> O(1) --> e in set
+non-Membership --> O(1) --> e not in set
+Disjoint --> O(n) --> s.isdisjoint(t)
+Subset --> O(n) --> s.issubset(t)
+Superset --> O(n) --> s.issuperset(t)
+Union --> O(n) --> s.union(t)
+Intersection --> O(n) --> s.intersection(t)
+Set Difference --> O(n) --> s.difference(t)
+Systemetric Difference --> O(n) --> s.symmetric_difference(t)
+Set Copy --> O(n) --> s.copy()
+
+---For mutable sets: also not frozen which is updatable
+Union --> O(n) --> s.update(t)
+Intersection --> O(n) --> s.intersectionupdate(t)
+Set Difference --> O(n) --> s.difference_update(t)
+Symmetric Dİfference --> O(n) --> s.symmetric_difference_update(t)
+Add --> O(1) --> s.add(e)
+Remove --> O(1) --> s.remove(e)
+Discard --> O(1) --> s.discard(e)
+Pop --> O(1) --> s.pop()
+Clear --> O(1) --> s.clear()
+
+
